@@ -16,8 +16,11 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+<script src="js/pankkitiedot.js"></script>
+
   </head>
   <body>
+    <div class="container">
     <h1>kjknljnknlknlknlnlk</h1>
 
     <form>
@@ -30,8 +33,10 @@
         <label for="pin">Pin-koodi:</label>
         <input type="password" class="form-control" id="pin">
       </div>
-      <button type="button" class="btn btn-info">Info</button>
+      <button onclick="laheta_pankkitiedot()" class="btn btn-info">Info</button>
     </form>
+    </div>
+    <button onclick="haepankkitiedot()" class="btn btn-info">täälä ei ole mitään</button>
+
   </body>
 </html>
-<link rel="shortcut icon" href=".ico">
